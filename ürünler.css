@@ -1,0 +1,155 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background:url(bgucak.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+    
+    }
+
+.container .navbar {
+
+    width: 100;
+    height: 85;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+.navbar ul{
+    float: right;
+    margin-right: 35px;
+}
+
+.navbar .logo{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 25px;
+    user-select: none;
+
+}
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color:aliceblue;
+    margin-top: 22px;
+    margin-left: 18px;
+
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 9px;
+    line-height: 85px;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size:20px;
+    font-family: sans-serif;
+   
+}
+.navbar ul li a:hover{
+    background-color: deepskyblue;
+    border-radius: 2px;}
+
+.container img {
+    width: 350px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+      
+}
+
+.resim {
+    width: 350px;
+    height: 600px;
+    position: absolute;
+    top: 78px;
+    margin-left: 10px;
+}
+.res {
+    width: 350px;
+    height: 600px;
+    position: absolute;
+    float: right;
+    top: 78px;
+    margin-left: 77%;
+}
+
+.button1 {
+    padding: 20px 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 200px;
+    display:inline-block;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    color:white;
+    position: absolute;
+    font-family: sans-serif;
+    bottom: 3px;
+    left: 3%;
+    
+}
+.button1:hover{
+    background-color: deepskyblue;
+    border-radius: 2px;}
+
+.button2 {
+    
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 200px;
+    display:inline-block;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    color:white;
+    position: absolute;
+    font-family: sans-serif;
+    bottom: 3px;
+    left: 42%;
+    padding: 20px 30px;
+    
+}
+.button2:hover{
+    background-color: deepskyblue;
+    border-radius: 2px;}
+
+.button3 {
+    
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 200px;
+    display:inline-block;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    color:white;
+    position: absolute;
+    font-family: sans-serif;
+    bottom: 3px;
+    right: 3%;
+    padding: 20px 30px;
+    text-align: center;
+    
+   
+    }
+    .zar{
+        position: absolute;
+        top: 2%;
+    margin-left: 10px;      
+    width: 0px;
+    height: 0px;
+            
+    }
+       .button3:hover{
+            background-color: deepskyblue;
+            border-radius: 2px;}
+       
+    

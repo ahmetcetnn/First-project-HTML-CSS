@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background:url(bgucak.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+    
+    }
+
+.container .navbar {
+
+    width: 100;
+    height: 85;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+.navbar ul{
+    float: right;
+    margin-right: 35px;
+    user-select: none;
+}
+
+.navbar .logo{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 25px;
+    user-select: none;
+
+}
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color:aliceblue;
+    user-select: none;
+    margin-top: 22px;
+    margin-left: 18px;
+
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 9px;
+    line-height: 85px;
+    user-select: none;
+    
+    
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size:20px;
+    font-family: sans-serif;
+    user-select: none;
+}
+.İletisim{
+    position: absolute;
+    font-family: sans-serif;
+    user-select: none;
+    top: 40%;
+    left: 34%;
+    transform:translate(-50%,-50%);
+    color: white;
+}
+.iletisim p{
+    margin-top: 10px;
+}
+
+.head{
+    position: absolute;
+    top: 86%;
+    left: 88%;
+    transform:translate(-50%,-50%);
+    color: white;
+    font-family: sans-serif;
+    user-select: none;
+
+
+}
+.buttons{
+    text-align:center;
+    display:inline-block;
+}
+.buttons button{
+    padding: 20px 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 300px;
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    cursor: pointer;
+    color:white;
+  }
+  
+  
+
+
+
+.navbar ul li a:hover{
+    background-color: deepskyblue;
+    border-radius: 2px;
+
+}
+.resim{
+    position: absolute;
+    top: 2%;
+    margin-left: 10px;      
+    width: 0px;
+    height: 0px;
+        
+   }
+   .zar{
+    position: absolute;
+    top: 2%;
+margin-left: 10px;      
+width: 0px;
+height: 0px;
+        
+   }
