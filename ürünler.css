@@ -20,6 +20,8 @@
 .navbar ul{
     float: right;
     margin-right: 35px;
+    user-select: none;
+
 }
 
 .navbar .logo{
@@ -36,6 +38,7 @@
     color:aliceblue;
     margin-top: 22px;
     margin-left: 18px;
+    user-select: none;
 
 }
 
@@ -44,6 +47,7 @@
     display: inline-block;
     margin: 0 9px;
     line-height: 85px;
+    user-select: none;
 
 }
 .navbar ul li a{
@@ -51,7 +55,8 @@
     color: white;
     font-size:20px;
     font-family: sans-serif;
-   
+    user-select: none;
+
 }
 .navbar ul li a:hover{
     background-color: deepskyblue;
@@ -96,7 +101,9 @@
     font-family: sans-serif;
     bottom: 3px;
     left: 3%;
-    
+    user-select: none;
+    text-decoration: none; 
+
 }
 .button1:hover{
     background-color: deepskyblue;
@@ -116,6 +123,8 @@
     bottom: 3px;
     left: 42%;
     padding: 20px 30px;
+    user-select: none;
+    text-decoration: none; 
     
 }
 .button2:hover{
@@ -137,7 +146,8 @@
     right: 3%;
     padding: 20px 30px;
     text-align: center;
-    
+    user-select: none;
+    text-decoration: none; 
    
     }
     .zar{
